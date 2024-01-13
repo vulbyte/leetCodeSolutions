@@ -1,24 +1,4 @@
-fn main() {
-    let test_mat_1: Vec<Vec<i32>> = [[0,0,0],[0,1,0],[0,0,0]] 
-    /* 
-     * output: 
-     * [
-     * [0,0,0],
-     * [0,1,0],
-     * [0,0,0]
-     * ] 
-     * */
-    let test_mat_2: Vec<Vec<i32>> = [[0,0,0],[0,1,0],[1,1,1]] 
-    /* 
-     * output: 
-     * [
-     * [0,0,0],
-     * [0,1,0],
-     * [1,2,1]
-     * ] 
-     * */
-
-}
+struct Matrix(Vec<Vec<i32>>);
 
 impl Solution {
     pub fn update_matrix(mat: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -39,3 +19,37 @@ impl Solution {
         
     }
 }
+
+impl std::fmt::Display for Structure {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        for each in self {
+              
+        }
+    }
+}
+
+fn main() {
+        
+
+    let test_mat_1: Vec<Vec<i32>> = [[0,0,0],[0,1,0],[0,0,0]];
+    test_mat_1;
+    /* 
+     * output: 
+     * [
+     * [0,0,0],
+     * [0,1,0],
+     * [0,0,0]
+     * ] 
+     * */
+    let test_mat_2: Vec<Vec<i32>> = [[0,0,0],[0,1,0],[1,1,1]];
+    /* 
+     * output: 
+     * [
+     * [0,0,0],
+     * [0,1,0],
+     * [1,2,1]
+     * ] 
+     * */
+
+}
+
