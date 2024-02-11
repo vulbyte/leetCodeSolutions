@@ -15,6 +15,7 @@ all files should be sorted via file extension.
 at the time of writing, these file extensions include:
 
 - cpp (c++)
+- cs (c#)
 - go (go lang)
 - js (javascript)
 - rs (rust)
@@ -25,8 +26,27 @@ at the time of writing, these file extensions include:
   the reason for these languages is:
   <br/>
   (note the below is my preferences/opinions on said languages)
-- cpp is a great language which is still used, though has some rather rough edges that are rather toothy
-- go is a great language that i consider to be "python++", a language with the ease of python, but with much more preformance and a lot less annoying quirks
-- js i sa nice scripting language. it's toothy and hard to use for anything longterm/critical; but is great for quick simple things and obviously anything web related
-- rs a modern low level language which is a bit rough around the edges. has some issues but overall is much safer and more predictable then cpp
-- sql the defacto db standard, maybe not the best but rather solid
+
+#### - cpp:
+
+is a great language which is still used, though has some rather rough edges that are rather toothy
+
+#### - cs:
+
+for people who think windows is the best os, or unity
+
+#### - go:
+
+is a great language that i consider to be "python++", a language with the ease of python, but with much more preformance and a lot less annoying quirks
+
+#### - js:
+
+is a nice scripting language. it's toothy and hard to use for anything longterm/critical; but is great for quick simple things and obviously anything web related
+
+#### - rs:
+
+a modern low level language which is a bit rough around the edges. has some issues but overall is much safer and more predictable then cpp
+
+#### - sql:
+
+the defacto db standard, maybe not the best but rather solid
