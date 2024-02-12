@@ -95,7 +95,6 @@ php is fun, though if i'm building a website i would prefer js/react as i prefer
 
 #### - Swift
 
-5/13<br/>
 seems kewl, sounds fun, but i'm not making programs for apple devices, so for now i'd rather probably learn a more funcitonal lang like oCaml over swift rn
 
 #### - Kotlin
