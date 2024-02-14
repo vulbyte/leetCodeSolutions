@@ -26,6 +26,7 @@ at the time of writing, these file extensions include:
 - cs (c#)
 - go (go lang)
 - js (javascript)
+- ts (typescript)
 - rs (rust)
 - sql (structured query language)
 
@@ -50,6 +51,10 @@ is a great language that i consider to be "python++", a language with the ease o
 ### - JS:
 
 is a nice scripting language. it's toothy and hard to use for anything longterm/critical; but is great for quick simple things and obviously anything web related
+
+### - TS:
+
+if a problem is complex/multi step, i like using typescript as an assistant. outside that i think js is probably better overall for basic tools and you should probably just be good at enforcing types tbh-
 
 ### - Rust:
 
@@ -82,10 +87,6 @@ i don't want to mod minecraft or work in legacy codebases
 #### - C
 
 i technically already do because i do cpp, which is a super-set of c but bluhbluhbluh you get the idea
-
-#### - TS
-
-i use typescript for projects, but if it's for leetcode i don't really need a linter to help me handle functions. just pretend each var and fn has a ":any" and you have typescript
 
 <br/>
 
