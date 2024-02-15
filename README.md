@@ -8,7 +8,7 @@ there is no promise for quality or anything specific like that, just for fun and
 
 <hr/>
 
-this is partly done by the extention: https://addons.mozilla.org/en-CA/firefox/addon/leetcode-torture/
+this is partly done by the extension: https://addons.mozilla.org/en-CA/firefox/addon/leetcode-torture/
 
 <br/>
 
