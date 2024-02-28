@@ -1,4 +1,4 @@
-// KNEE JERK SOLUTION, TOO SLOW BECAUSE O(n)
+// KNEE JERK SOLUTION, TOO SLOW BECAUSE O(n^2)
 // class Solution {
 // public:
 //     int maxLengthBetweenEqualCharacters(string s) {
@@ -19,7 +19,7 @@
 //         return maxGap-1;
 //     }
 //     int findGap(string s, char c, int i){
-//         for (int j = i+1; j < s.size(); j++) {
+//         for (int j = s.size(); j > i; --j) {
 //             if (s[j] == c){
 //                 cout << "char gap = " << abs(i-j) << endl;
 //                 return abs(i-j);
@@ -29,7 +29,7 @@
 //         return -1;
 //     }
 // };
-// 
+
 // "mgntdygtxrvxjnwksqhxuxtrv"
 //     ^                  ^
 
@@ -83,10 +83,13 @@
 class Solution {
 public:
     int maxLengthBetweenEqualCharacters(string s) {
+        // pre allocate size
         int n = s.size();
 
+        // result defaults to -1
         int res = -1;
 
+        //for each 
         for (int l = 0; l < n - 1; ++l){
             int r = n - 1;
             while (l < r){
@@ -96,4 +99,4 @@ public:
         }
         return res;
     }
-};
+}
